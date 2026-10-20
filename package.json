@@ -1,0 +1,20 @@
+{
+  "name": "kamino-borrow-preflight",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preflight": "tsx src/preflight.ts",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@kamino-finance/klend-sdk": "13.0.3",
+    "@solana/kit": "^2.3.0",
+    "decimal.js": "^10.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.7.3"
+  }
+}
